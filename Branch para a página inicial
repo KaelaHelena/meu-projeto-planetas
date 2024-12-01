@@ -1,1 +1,6 @@
 git checkout -b feature/pagina-inicial
+git add .
+git commit -m "Criação da estrutura básica da página inicial"
+git checkout main
+git merge feature/pagina-inicial
+git push origin main
